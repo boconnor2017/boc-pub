@@ -1,5 +1,5 @@
 <#
-     Version: 1.0
+     Version: 1.1
      Author: Brendan O'Connor (VMWare Professional Services)
      Date: February 2018
 
@@ -64,21 +64,21 @@
 #>
 
 <# Input Parameters #>
-$vCenterServer = 'csxvc.cloudstackx.local'
+$vCenterServer = 'vcenter.domain.local'
 $vCenter_username = 'administrator@vsphere.local'
-$vCenter_password = 'VMware1!'
+$vCenter_password = 'password'
 $templateName = 'vra_iaas_win12r2'
-$hostName = 'csxesxi2.cloudstackx.local'
-$datastoreName = 'csx_payload'
-$networkName = 'csxmgt'
+$hostName = 'esxhost.domain.local'
+$datastoreName = 'my_datastore'
+$networkName = 'my_portgroup'
 $targetVCenterFolderName = 'vRealize'
-$defaultGateway = '172.16.0.1'
+$defaultGateway = '10.0.0.1'
 $subnetMask = '255.255.255.0'
-$dnsServers = '172.16.0.9'
-$osCustomizationSpec = 'csxwin12r2'
+$dnsServers = '10.0.0.2'
+$osCustomizationSpec = 'win12r2'
 
-$iaaSVMNames = @('vraiaasmgr01', 'vraiaasweb01', 'vraiaasdem01', 'vraiaassql01')
-$iaaSVMIPs = @('172.16.0.201', '172.16.0.202', '172.16.0.203', '172.16.0.204')
+$iaaSVMNames = @('vraiaasmgr01', 'vraiaasweb01', 'vraiaasdem01')
+$iaaSVMIPs = @('10.0.0.10', '10.0.0.11', '10.0.0.12')
 
 
 <# Connect to vCenter #>

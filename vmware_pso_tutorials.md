@@ -7,8 +7,11 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
    - vRealize Automation Lifecycle Management Tutorials
         1. PowerCLI script to automate deployment of IaaS Virtual Machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1 
+           
+        2. Documented procedure to automate deployment of IaaS Virtual Machines using PowerCLI
+           
         
-        2. PowerShell script to automate installation of the IaaS Management components on Windows machines
+        3. PowerShell script to automate installation of the IaaS Management components on Windows machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1  
 
 

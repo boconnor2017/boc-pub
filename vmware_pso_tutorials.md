@@ -13,3 +13,8 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
 
 
 # vSphere
+VMWare vSphere tutorials: vCenter and ESXi
+
+   - General vSphere Tutorials
+       1. PowerCLI script to deploy OVA template
+          https://github.com/boconnor2017/boc-pub/blob/master/vSphere/pscli_deploy_ova_template 

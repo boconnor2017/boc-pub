@@ -1,5 +1,4 @@
 # VMWare PSO Tutorials
-Author: Brendan O'Connor 
 How to use: download boc-pub or select specific tutorials below. 
 
 # vRealize

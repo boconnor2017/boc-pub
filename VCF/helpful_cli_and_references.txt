@@ -1,0 +1,66 @@
+##                                                           ##
+## Helpful CLI commands and references during VCF deployment ##
+##                                                           ##
+
+# How to recover from a forgotten password through GRUB on Force10 switches
+http://www.dell.com/support/article/us/en/19/how11844/how-to-recover-from-a-forgotten-password-through-grub-on-force10-switches?lang=en 
+
+# Download ONIE for Dell S3048 Switch
+http://www.dell.com/support/home/ae/en/aedhs1/Drivers/DriversDetails?driverId=7P7P8&lwp=rt 
+
+# Upgrade/Downgrade Guide for Cisco Nexus 9000 Series
+https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/6-x/upgrade/guide/b_Cisco_Nexus_9000_Series_NX-OS_Software_Upgrade_and_Downgrade_Guide_Release_6x/b_Cisco_Nexus_9000_Series_NX-OS_Software_Upgrade_and_Downgrade_Guide_Release_6x_chapter_01.html
+
+# From VIA appliance, monitor DHCP
+sudo tail /var/log/syslog | grep dhcpd
+
+# Edit VCF bundle JSON using postmaster
+https://kb.vmware.com/s/article/50354  
+
+# CLI command to lookup interfaces on Cumulus switch
+brctl show
+
+# CLI command to lookup MAC addresses, ports and VLANs on a bridge
+brctl showmacs <BRIDGE NAME>
+
+# CLI command to lookup IP addresses on an interface
+arp -n
+
+# CLI command to show devices connected to a Cisco ToR switch
+show cdp neighbors
+
+# Process to physically restart Cisco switch after PW failure
+    - Attach to the local console, telnet or SSH will not work for this procedure
+    - Power off, then on the chassis (ensure the PS lights go completely out before reinstalling the AC cables).
+    - Hit the escape or Ctrl-c key to stop the image from loading and ensure you see the loader> prompt.
+    - Key in this command at the loader> prompt ‘cmdline recoverymode=1’and hit enter.
+    - Next, issue the boot command to load the NX-OS image. You can use ‘dir’ to see the images currently on this supervisor’s bootflash:
+    - The boot process should stop at the switch(boot) prompt
+    - At this point, enter ‘config terminal’, and then ‘admin-password xxxxxxx’ (xxxxxx = new password)
+    - Enter ‘exit’ to leave config mode
+    - Enter the command ‘load-nxos’ to load the main image portion from the NX-OS bin file.
+    - When the switch login prompt appears you can login with admin and the new password
+
+# CLI command to lookup Dell BIOS setting
+./spt -H <IP ADDRESS> -u <USERNAME> -p <PASSWORD> -t dell -j get --bios_prop <PROPERTY>
+
+# CLI command to powercycle Dell host
+ipmitool -I lanplus -U <USERNAME> -P <PASSWORD> -H <IP ADDRESS> chassis power cycle
+
+# CLI command to force PXE boot on Dell host
+ipmitool -I lanplus -U <USERNAME> -P <PASSWORD> -H <IP ADDRESS> chassis bootdev pxe
+
+# Rollback configuration of Cisco ToR switch
+write erase
+reload
+
+# Rollback configuration of Dell Management switch
+sudo cl-img-select -i
+sudo reboot
+
+# Process to lookup SDDC Passwords on VRM appliance
+cd /home/vrack/bin 
+./vrm-cli.sh lookup-password 
+
+
+

@@ -11,9 +11,11 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
         2. Documented procedure to automate deployment of IaaS Virtual Machines using PowerCLI
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/03-PowerCLI%20script%20to%20Setup%20Windows%20Servers%20for%20vRealize%20Automation%207.x.docx
            
-        
         3. PowerShell script to automate installation of the IaaS Management components on Windows machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1  
+           
+        4. Powershell/CloudClient script to export Blueprint to yaml file
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/pscc_export_blueprint 
 
 
 # VMWare Cloud Foundation

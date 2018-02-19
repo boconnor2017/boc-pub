@@ -16,6 +16,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
         4. Powershell/CloudClient script to export Blueprint to yaml file
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/pscc_export_blueprint.ps1
+           
+        5. XaaS Blueprint: edit vRA catalog item JSON and submit
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/com.vmware.vra.xaas.submitcatalogitem.package
 
 
 # VMWare Cloud Foundation

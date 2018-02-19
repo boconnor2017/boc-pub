@@ -15,7 +15,7 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1  
            
         4. Powershell/CloudClient script to export Blueprint to yaml file
-           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/pscc_export_blueprint 
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/pscc_export_blueprint.ps1
 
 
 # VMWare Cloud Foundation

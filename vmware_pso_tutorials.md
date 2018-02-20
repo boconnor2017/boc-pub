@@ -19,6 +19,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
         5. XaaS Blueprint: edit vRA catalog item JSON and submit
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/com.vmware.vra.xaas.submitcatalogitem.package
+           
+        6. Steps to connect and query embedded vRealize Automation postgres database
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/connect_to_vra_postgres.txt 
 
 
 # VMWare Cloud Foundation

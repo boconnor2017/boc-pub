@@ -1,0 +1,88 @@
+# Step 1: Login to vRA appliance with root credentials
+login as: root
+VMware vRealize Appliance
+root@csxvra01.cloudstackx.local's password:
+Last login: Tue Feb 20 15:04:13 UTC 2018 from x.x.x.x on ssh
+
+
+
+
+# Step 2: Switch users to postgres
+csxvra01:~ # su postgres
+postgres@csxvra01:/root> psql vcac
+could not change directory to "/root": Permission denied
+psql.bin (9.5.6 (VMware Postgres 9.5.6.0-5262417 release))
+Type "help" for help.
+
+vcac=#
+
+
+
+
+# Tutorial 1: Show a list of databases
+vcac=# \list
+                                  List of databases
+   Name    |  Owner   | Encoding |   Collate   |    Ctype    |   Access privileges
+-----------+----------+----------+-------------+-------------+-----------------------
+ postgres  | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+ template0 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ template1 | postgres | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/postgres          +
+           |          |          |             |             | postgres=CTc/postgres
+ vcac      | vcac     | UTF8     | en_US.UTF-8 | en_US.UTF-8 |
+(4 rows)
+
+
+
+
+# Tutotial 2: Connect to a database (vcac)
+vcac=# \connect vcac
+You are now connected to database "vcac" as user "postgres".
+
+
+
+
+# Tutorial 3: Show a list of tables in the current database (vcac)
+vcac=# \dt
+                                 List of relations
+ Schema |                           Name                            | Type  | Owner
+--------+-----------------------------------------------------------+-------+-------
+ public | approval                                                  | table | vcac
+ public | approvallevel                                             | table | vcac
+ public | approvallevel_approvers                                   | table | vcac
+ public | approvalleveldecision                                     | table | vcac
+ public | approvalphasetype                                         | table | vcac
+ public | approvalpolicy                                            | table | vcac
+ public | approvalpolicy_phase                                      | table | vcac
+ public | approvalpolicytype                                        | table | vcac
+ public | approvalpolicytype_approvalphasetype                      | table | vcac
+ public | approvalrequest                                           | table | vcac
+ public | approvalrequest_approvers                                 | table | vcac
+ public | asd_allocation_processing_data                            | table | vcac
+ public | asd_configuration                                         | table | vcac
+ public | asd_endpoint                                              | table | vcac
+ public | asd_event_processing_data                                 | table | vcac
+ public | asd_formscenario                                          | table | vcac
+ public | asd_parameter                                             | table | vcac
+ public | asd_policy                                                | table | vcac
+ public | asd_resource                                              | table | vcac
+ public | asd_resourceoperation                                     | table | vcac
+ public | asd_resourcetype                                          | table | vcac
+ public | asd_serviceblueprint                                      | table | vcac
+ public | asd_subscription                                          | table | vcac
+ public | asd_tenantorchestrationfolder                             | table | vcac
+ public | asd_workflowrunrequest                                    | table | vcac
+ public | auth_property                                             | table | vcac
+ public | auth_usertoken                                            | table | vcac
+ public | branding                                                  | table | vcac
+ public | cat_catalogitem                                           | table | vcac
+ public | cat_catalogitemtype                                       | table | vcac
+ public | cat_entitlement                                           | table | vcac
+ public | cat_entitlement_catalogitems                              | table | vcac
+ public | cat_entitlement_operations                                | table | vcac
+ public | cat_entitlement_principals                                | table | vcac
+ public | cat_entitlement_services                                  | table | vcac
+ public | cat_icon                                                  | table | vcac
+ public | cat_principal                                             | table | vcac
+lines 1-40
+

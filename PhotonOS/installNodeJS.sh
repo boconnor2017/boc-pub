@@ -14,7 +14,7 @@
 #    Procedure:
 #      1. Create local directory (for example: mkdir /usr/local/nodejs)
 #      2. Download nodejs tar file (manually or through wget https://nodejs.org/dist/v8.9.4/node-v8.9.4.tar.gz) to directory
-#      3. Copy this script to the directory
+#      3. Copy this script to the directory (manually or through wget https://github.com/boconnor2017/boc-pub/blob/master/PhotonOS/installNodeJS.sh)
 #      4. Run script: sh installNodeJS.sh 
 #      5. Open a browser, navigate to <photon_ip_address>:3000
 

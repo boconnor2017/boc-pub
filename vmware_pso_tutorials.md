@@ -1,5 +1,5 @@
 # VMWare PSO Tutorials
-How to use: download boc-pub or select specific tutorials below. From CLI use wget <path_to_code> to download directly. 
+How to use: download boc-pub or select specific tutorials below. From CLI use wget <path_to_code> to download directly, or use git clone https://github.com/boconnor2017/boc-pub.git to download the boc-pub repository. 
 
 # vRealize
 VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealize Operations, vRealize Log Insight, vRealize Code Stream and vRealize Network Insight. 

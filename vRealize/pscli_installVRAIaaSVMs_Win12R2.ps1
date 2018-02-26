@@ -29,6 +29,7 @@
      For details on each of these commands, please refer to VMWare PowerCLI Documentation. 
 
 
+
 #>
 
 <# 
@@ -40,6 +41,8 @@
       5. Populate Input Parameters 
       6. Open powerCLI, navigate to the local directory containing this script
       7. Run ./pscli_installVRAIaaSVMs_Win12R2.ps1
+
+      **NOTE: do not use this script to setup database servers, SQL server config should be done separately
       
 
 #>
@@ -64,21 +67,21 @@
 #>
 
 <# Input Parameters #>
-$vCenterServer = 'vcenter.domain.local'
+$vCenterServer = 'vc_fqdn'
 $vCenter_username = 'administrator@vsphere.local'
 $vCenter_password = 'password'
 $templateName = 'vra_iaas_win12r2'
-$hostName = 'esxhost.domain.local'
-$datastoreName = 'my_datastore'
-$networkName = 'my_portgroup'
+$hostName = 'esxi_host_fqdn'
+$datastoreName = 'datastore'
+$networkName = 'port_group'
 $targetVCenterFolderName = 'vRealize'
-$defaultGateway = '10.0.0.1'
+$defaultGateway = 'x.x.x.x'
 $subnetMask = '255.255.255.0'
-$dnsServers = '10.0.0.2'
-$osCustomizationSpec = 'win12r2'
+$dnsServers = 'x.x.x.x'
+$osCustomizationSpec = 'windows'
 
-$iaaSVMNames = @('vraiaasmgr01', 'vraiaasweb01', 'vraiaasdem01')
-$iaaSVMIPs = @('10.0.0.10', '10.0.0.11', '10.0.0.12')
+$iaaSVMNames = @('vraiaasweb1', 'vraiaasweb2', 'vraiaasmgr1', 'vraiaasmgr2', 'vraiaasdem1', 'vraiaasdem2')
+$iaaSVMIPs = @('x.x.x.x', 'x.x.x.x', 'x.x.x.x', 'x.x.x.x', 'x.x.x.x', 'x.x.x.x')
 
 
 <# Connect to vCenter #>

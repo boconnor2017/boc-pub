@@ -26,6 +26,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
         7. Sample JSON: Import vRA POC Environment into vRLCM
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vra_small.json
            
+        8. Sample JSON: Import vROPS POC Environment into vRLCM
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrops_small.json
+           
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)
         1. Shell script to automate installation of NodeJS
            https://github.com/boconnor2017/boc-pub/blob/master/PhotonOS/installNodeJS.sh

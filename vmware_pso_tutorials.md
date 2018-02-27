@@ -32,6 +32,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
         9. Sample JSON: Deploy vRB POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrb_small.json
            
+       10. Procedure to connect to embedded postgres database (vRA/vRO and vRB)
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/connect_to_vra_postgres.txt
+           
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)
         1. Shell script to automate installation of NodeJS
            https://github.com/boconnor2017/boc-pub/blob/master/PhotonOS/installNodeJS.sh

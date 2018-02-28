@@ -23,7 +23,7 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
         6. Steps to connect and query embedded vRealize Automation postgres database
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/connect_to_vra_postgres.txt 
            
-        7. Sample JSON: Deploy vROPS POC Environment using vRLCM Configuration File
+        7. Sample JSON: Deploy vRA POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vra_small.json
            
         8. Sample JSON: Deploy vROPS POC Environment using vRLCM Configuration File

@@ -1,0 +1,87 @@
+{
+  "requestId": null,
+  "environmentId": "34d7a4f1eddedc7556645f15cb6b8",
+  "infrastructure": {
+    "sourceLink": "34d7a4f1eddedc7556645f15cb6b8",
+    "properties": {
+      "bindPassword": "",
+      "dataCenterName": "Cloudstackx",
+      "vcHostname": "csxvc.cloudstackx.local",
+      "environmentId": "34d7a4f1eddedc7556645f15cb6b8",
+      "masterVidmAdminUserName": "",
+      "netmask": "255.255.255.0",
+      "environmentName": "vRLI_json1",
+      "clusterName": "CloudstackX#cloudstackx",
+      "enableTelemetry": "false",
+      "dnsServers": "172.16.0.9",
+      "diskFormat": "Thick",
+      "baseDN": "",
+      "vcPassword": "VMware1!",
+      "defaultPassword": "VMware1!",
+      "adminEmail": "administrator@cloudstackx.local",
+      "adName": "",
+      "certificateChain": "-----BEGIN CERTIFICATE-----\nMIIDyTCCArGgAwIBAgIJAPsoZHNISCKRMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNV\nBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9uMRQwEgYDVQQKDAtj\nbG91ZHN0YWNreDELMAkGA1UECwwCSVQxLjAsBgNVBAMMJVZNd2FyZSB2UmVhbGl6\nZSBmb3IgSVQgYXQgY2xvdWRzdGFja3gwHhcNMTgwMjA0MTk1MzM2WhcNMzMwMTMx\nMTk1MzM2WjB+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUExDzANBgNVBAcMBkJv\nc3RvbjEUMBIGA1UECgwLY2xvdWRzdGFja3gxCzAJBgNVBAsMAklUMS4wLAYDVQQD\nDCVWTXdhcmUgdlJlYWxpemUgZm9yIElUIGF0IGNsb3Vkc3RhY2t4MIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSDAgXrw+kGXhuOUkYkhcW+vNK35TfAq\nxgL2ISRLqMpl7Pm8GFpeEAK4vi4KuuFDuYznA25MHQr0jkLkAwfsRTuxOVGnvBLb\nihWPUzJSzvibqTzKV3OiYWuGtoJWY90Sf65B6/0yg9X5zOTM8/NdAWJLZOrQ4fVT\nD1mC0SQ9Upk0KwJfRLoQsWN1Q4mfa1t4bU/EC0bmAjHYG23C1CVMOtSRGtRqSWuj\nOjK/whLAoqFPgUy6s8VT1r5V1/ut/9GGhdT89JlKbWKOe/eT/fDp5OtG2aDvCdcb\nzc1rDn7/TdcgBKML6WUvPq3zGCJBLnFnSTfqHwrDPvHHQAQxul3alQIDAQABo0ow\nSDATBgNVHSUEDDAKBggrBgEFBQcDATAxBgNVHREEKjAoghMqLmNsb3Vkc3RhY2t4\nLmxvY2FsghFjbG91ZHN0YWNreC5sb2NhbDANBgkqhkiG9w0BAQsFAAOCAQEAhRV/\nQSRJIQJsXF3WLsjwJrqxvqPsq3z08FmtO8u4cvwuO3w8vZ254pah27c5JkWq9LMa\ntchl7aPSyys/oFfoat4rjILGJn2snIoCURIRcAQR+GVzzA+ZImLq36PTOLc7vcI1\ni7a8DuItFeFyhr9d0PfL9RLd/FZszX5QQwbaC+P2pmKxbta3LyuJe4YV6oOdIn3o\nIOdYQZhskjCRuSD6+4f2dPiDMTx3+hUhP7wjXqp0moV8ZMSnYZSmByW1NAnJ/Fjx\n5VCfwLhXf1RCFOnjbuy16HNOk8gmxlyTMcDOrQCEnk3rEdX2K7nZG7/SQYT/DHY+\npoWsCIfhj87zOT0gVA==\n-----END CERTIFICATE-----\n",
+      "masterKeyPassphrase": "czJlbmN+dG1TeVlQOWdFamxwMVBzTm9BdWFqZz09",
+      "datastoreName": "csx_payload",
+      "masterVidmAdminPassword": "",
+      "masterVidmEnabled": "",
+      "uberAdmin": "",
+      "license": "41431-0A2E2-H80A8-08104-1DTK0",
+      "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9IMCBevD6QZeG\n45SRiSFxb680rflN8CrGAvYhJEuoymXs+bwYWl4QAri+Lgq64UO5jOcDbkwdCvSO\nQuQDB+xFO7E5Uae8EtuKFY9TMlLO+JupPMpXc6Jha4a2glZj3RJ/rkHr/TKD1fnM\n5Mzz810BYktk6tDh9VMPWYLRJD1SmTQrAl9EuhCxY3VDiZ9rW3htT8QLRuYCMdgb\nbcLUJUw61JEa1GpJa6M6Mr/CEsCioU+BTLqzxVPWvlXX+63/0YaF1Pz0mUptYo57\n95P98Onk60bZoO8J1xvNzWsOfv9N1yAEowvpZS8+rfMYIkEucWdJN+ofCsM+8cdA\nBDG6XdqVAgMBAAECggEAA2txL6Yqb0v6Um0RBaSmHyf20gwHQvqBu3zYOHcwiwfF\n2ggV95bCtqVl88JfXUuvbs52auB2rdvB2kSpXMiq5AGVTcUFNGhe4dtL8SQqzSU/\no0q/Gd+0YvCPygMHTtzzda2P8ZVtcWbQEn1cm1ieKOU/Gb8JMdy+uLtUmzV9il3E\n16ArFThqNiq3xX5g+33QA+7FVyX6AW1sfLnq4SF5/cVqJGgDVeyfi8sc9/kYsqlT\nUujH5o1sbZ8Pzlos27wDlFy0jaugo4UbxRlweqAPmupluXz6DqMRbf2eo1o/1jvm\nHAn7M8EjfodKFNgnND4UUz54GUp10aspxnNnGtCl7QKBgQDc4qMqZyUAw6Qepd+6\ny2/+3uzDjM5WerYF8oIUZUM0yjnI5NypNrvqnrOq4gd3pB4ONScliLbuMMG6LZEs\ngibPJmBr0CxLHY/8LJcZ+KftDiOcEojHE4YkV4MmBQL7+h8tp7BmJh5DEjL7S3Ab\nl7lxqxoXh93um/o1A9GAGgNhWwKBgQDbMa+iT4piHKRY8lEAFsheLMkgfAateHwO\nL1BwNHonKCVHRwA8OcwizlaEwxTcmPjH1fQm60GZ6zpNJ++JgO9Y4oa7Z1tuiY7j\n7QlKQ2Lcp68d8sw13yxxSttO+wjTeqll9F4uIx9Vq44QLrl7RMfSxC7QsrToe95q\nWjAyjS4GzwKBgQCaigZWeGuvKTH+L1dkvUjSLO3BsxX580i+yHiyBFcM7B+ZqmWo\nDh9Te02A1TscPbq5ff6xiAFUjNA9jfvwA+9bJyJ2y+LxevFuIVRmW05B0I6hd2Yy\nwjor2v5q7z6zRL/jlVsZXLn3exgoMRNyeqjIGknbBLgFZSOdS9qboZeT2QKBgFOf\n6hzncakqujzA/cwl5P2g4n7FMpr9635R6MNWEgBcXZSK7vkLJ+ljhTiTYKMkrU04\nQDSU7ms1hgGnqchw61+i1LosnYJXcq9cYH33pYD/bFzlo6kt4ru6Tl8cgOqF0pj2\nGPRLLAo4MDPWT6dKv12WwTGX7FMB5wH2NIskt5mbAoGAIgFjQtN1Y7uf27GgMmo+\n8RxvAxjozZjJ94oENmR9aTX0P/fVQrVWX/vopjAfCKsd9h9eLRyMXpq91BEh3NNA\nIjuBTvOIXE0C9phTd7aVaeiDgG89dVAiPzUqiUNu9EixMwThS3MTAVGszs/1ik9w\nNbEEexGsLGXa/dsVc8ShzGQ=\n-----END PRIVATE KEY-----\n",
+      "bindDN": "",
+      "vmNetwork": "csxmgt",
+      "masterPrivateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC9IMCBevD6QZeG\n45SRiSFxb680rflN8CrGAvYhJEuoymXs+bwYWl4QAri+Lgq64UO5jOcDbkwdCvSO\nQuQDB+xFO7E5Uae8EtuKFY9TMlLO+JupPMpXc6Jha4a2glZj3RJ/rkHr/TKD1fnM\n5Mzz810BYktk6tDh9VMPWYLRJD1SmTQrAl9EuhCxY3VDiZ9rW3htT8QLRuYCMdgb\nbcLUJUw61JEa1GpJa6M6Mr/CEsCioU+BTLqzxVPWvlXX+63/0YaF1Pz0mUptYo57\n95P98Onk60bZoO8J1xvNzWsOfv9N1yAEowvpZS8+rfMYIkEucWdJN+ofCsM+8cdA\nBDG6XdqVAgMBAAECggEAA2txL6Yqb0v6Um0RBaSmHyf20gwHQvqBu3zYOHcwiwfF\n2ggV95bCtqVl88JfXUuvbs52auB2rdvB2kSpXMiq5AGVTcUFNGhe4dtL8SQqzSU/\no0q/Gd+0YvCPygMHTtzzda2P8ZVtcWbQEn1cm1ieKOU/Gb8JMdy+uLtUmzV9il3E\n16ArFThqNiq3xX5g+33QA+7FVyX6AW1sfLnq4SF5/cVqJGgDVeyfi8sc9/kYsqlT\nUujH5o1sbZ8Pzlos27wDlFy0jaugo4UbxRlweqAPmupluXz6DqMRbf2eo1o/1jvm\nHAn7M8EjfodKFNgnND4UUz54GUp10aspxnNnGtCl7QKBgQDc4qMqZyUAw6Qepd+6\ny2/+3uzDjM5WerYF8oIUZUM0yjnI5NypNrvqnrOq4gd3pB4ONScliLbuMMG6LZEs\ngibPJmBr0CxLHY/8LJcZ+KftDiOcEojHE4YkV4MmBQL7+h8tp7BmJh5DEjL7S3Ab\nl7lxqxoXh93um/o1A9GAGgNhWwKBgQDbMa+iT4piHKRY8lEAFsheLMkgfAateHwO\nL1BwNHonKCVHRwA8OcwizlaEwxTcmPjH1fQm60GZ6zpNJ++JgO9Y4oa7Z1tuiY7j\n7QlKQ2Lcp68d8sw13yxxSttO+wjTeqll9F4uIx9Vq44QLrl7RMfSxC7QsrToe95q\nWjAyjS4GzwKBgQCaigZWeGuvKTH+L1dkvUjSLO3BsxX580i+yHiyBFcM7B+ZqmWo\nDh9Te02A1TscPbq5ff6xiAFUjNA9jfvwA+9bJyJ2y+LxevFuIVRmW05B0I6hd2Yy\nwjor2v5q7z6zRL/jlVsZXLn3exgoMRNyeqjIGknbBLgFZSOdS9qboZeT2QKBgFOf\n6hzncakqujzA/cwl5P2g4n7FMpr9635R6MNWEgBcXZSK7vkLJ+ljhTiTYKMkrU04\nQDSU7ms1hgGnqchw61+i1LosnYJXcq9cYH33pYD/bFzlo6kt4ru6Tl8cgOqF0pj2\nGPRLLAo4MDPWT6dKv12WwTGX7FMB5wH2NIskt5mbAoGAIgFjQtN1Y7uf27GgMmo+\n8RxvAxjozZjJ94oENmR9aTX0P/fVQrVWX/vopjAfCKsd9h9eLRyMXpq91BEh3NNA\nIjuBTvOIXE0C9phTd7aVaeiDgG89dVAiPzUqiUNu9EixMwThS3MTAVGszs/1ik9w\nNbEEexGsLGXa/dsVc8ShzGQ=\n-----END PRIVATE KEY-----\n",
+      "masterVidmHostName": "",
+      "groupDN": "",
+      "masterVidmCloudAdminGroup": "",
+      "vcUsername": "administrator@vsphere.local",
+      "domain": "cloudstackx.local",
+      "acceptEULA": "true",
+      "keyPassphrase": "czJlbmN+dG1TeVlQOWdFamxwMVBzTm9BdWFqZz09",
+      "gateway": "172.16.0.1",
+      "searchpath": "cloudstackx.local, cloudstackx",
+      "masterCertificateChain": "-----BEGIN CERTIFICATE-----\nMIIDyTCCArGgAwIBAgIJAPsoZHNISCKRMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNV\nBAYTAlVTMQswCQYDVQQIDAJNQTEPMA0GA1UEBwwGQm9zdG9uMRQwEgYDVQQKDAtj\nbG91ZHN0YWNreDELMAkGA1UECwwCSVQxLjAsBgNVBAMMJVZNd2FyZSB2UmVhbGl6\nZSBmb3IgSVQgYXQgY2xvdWRzdGFja3gwHhcNMTgwMjA0MTk1MzM2WhcNMzMwMTMx\nMTk1MzM2WjB+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTUExDzANBgNVBAcMBkJv\nc3RvbjEUMBIGA1UECgwLY2xvdWRzdGFja3gxCzAJBgNVBAsMAklUMS4wLAYDVQQD\nDCVWTXdhcmUgdlJlYWxpemUgZm9yIElUIGF0IGNsb3Vkc3RhY2t4MIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvSDAgXrw+kGXhuOUkYkhcW+vNK35TfAq\nxgL2ISRLqMpl7Pm8GFpeEAK4vi4KuuFDuYznA25MHQr0jkLkAwfsRTuxOVGnvBLb\nihWPUzJSzvibqTzKV3OiYWuGtoJWY90Sf65B6/0yg9X5zOTM8/NdAWJLZOrQ4fVT\nD1mC0SQ9Upk0KwJfRLoQsWN1Q4mfa1t4bU/EC0bmAjHYG23C1CVMOtSRGtRqSWuj\nOjK/whLAoqFPgUy6s8VT1r5V1/ut/9GGhdT89JlKbWKOe/eT/fDp5OtG2aDvCdcb\nzc1rDn7/TdcgBKML6WUvPq3zGCJBLnFnSTfqHwrDPvHHQAQxul3alQIDAQABo0ow\nSDATBgNVHSUEDDAKBggrBgEFBQcDATAxBgNVHREEKjAoghMqLmNsb3Vkc3RhY2t4\nLmxvY2FsghFjbG91ZHN0YWNreC5sb2NhbDANBgkqhkiG9w0BAQsFAAOCAQEAhRV/\nQSRJIQJsXF3WLsjwJrqxvqPsq3z08FmtO8u4cvwuO3w8vZ254pah27c5JkWq9LMa\ntchl7aPSyys/oFfoat4rjILGJn2snIoCURIRcAQR+GVzzA+ZImLq36PTOLc7vcI1\ni7a8DuItFeFyhr9d0PfL9RLd/FZszX5QQwbaC+P2pmKxbta3LyuJe4YV6oOdIn3o\nIOdYQZhskjCRuSD6+4f2dPiDMTx3+hUhP7wjXqp0moV8ZMSnYZSmByW1NAnJ/Fjx\n5VCfwLhXf1RCFOnjbuy16HNOk8gmxlyTMcDOrQCEnk3rEdX2K7nZG7/SQYT/DHY+\npoWsCIfhj87zOT0gVA==\n-----END CERTIFICATE-----\n"
+    }
+  },
+  "encoded": false,
+  "products": [
+    {
+      "sourceLink": null,
+      "id": "vrli",
+      "version": "4.5.1",
+      "clusterVIP": [],
+      "properties": {
+        "vrliClusterVips": ""
+      },
+      "nodes": [
+        {
+          "sourceLink": "",
+          "type": "vrli-master",
+          "properties": {
+            "name": "csxvrli01",
+            "ipAddress": "172.16.0.54",
+            "hostname": "csxvrli01.cloudstackx.local",
+            "cluster": "",
+            "vCenterHost": "csxvc.cloudstackx.local",
+            "storage": "",
+            "network": "",
+            "vrliAdminEmail": "administrator@cloudstackx.local",
+            "netmask": "255.255.255.0",
+            "vrliAdminUser": "admin",
+            "diskFormat": "",
+            "vrliLicenseKey": "",
+            "dns": "172.16.0.9",
+            "domain": "cloudstackx",
+            "searchpath": "csxvrli01.cloudstackx.local, csxvrli01",
+            "gateway": "172.16.0.1",
+            "deployOption": "",
+            "masterVidmEnabled": "",
+            "userName": "administrator@vsphere.local",
+            "password": "VMware1!"
+          }
+        }
+      ],
+      "contents": []
+    }
+  ]
+}

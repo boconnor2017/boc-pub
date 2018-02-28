@@ -5,37 +5,40 @@ How to use: clone boc-pub or select specific tutorials below. From CLI use wget 
 VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealize Operations, vRealize Log Insight, vRealize Code Stream and vRealize Network Insight. 
 
    - vRealize Suite Lifecycle Management Tutorials
-        1. PowerCLI script to automate deployment of IaaS Virtual Machines
+        -- PowerCLI script to automate deployment of IaaS Virtual Machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1 
            
-        2. Procedure to automate deployment of IaaS Virtual Machines using PowerCLI
+        -- Procedure to automate deployment of IaaS Virtual Machines using PowerCLI
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/03-PowerCLI%20script%20to%20Setup%20Windows%20Servers%20for%20vRealize%20Automation%207.x.docx
            
-        3. PowerShell script to automate installation of the IaaS Management components on Windows machines
+        -- PowerShell script to automate installation of the IaaS Management components on Windows machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1  
            
-        4. Powershell/CloudClient script to export Blueprint to yaml file
+        -- Powershell/CloudClient script to export Blueprint to yaml file
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/pscc_export_blueprint.ps1
            
-        5. XaaS Blueprint: edit vRA catalog item JSON and submit
+        -- XaaS Blueprint: edit vRA catalog item JSON and submit
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/com.vmware.vra.xaas.submitcatalogitem.package
            
-        6. Steps to connect and query embedded vRealize Automation postgres database
+        -- Steps to connect and query embedded vRealize Automation postgres database
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/connect_to_vra_postgres.txt 
            
-        7. Sample JSON: Deploy vRA POC Environment using vRLCM Configuration File
+        -- Sample JSON: Deploy vRA POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vra_small.json
            
-        8. Sample JSON: Deploy vROPS POC Environment using vRLCM Configuration File
+        -- Sample JSON: Deploy vROPS POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrops_small.json
            
-        9. Sample JSON: Deploy vRB POC Environment using vRLCM Configuration File
+        -- Sample JSON: Deploy vRB POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrb_small.json
            
-       10. Powershell script to automate preparation of Windows template for Software Components
+        -- Sample JSON: Deploy vRLI POC Environment using vRLCM Configuration File
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrli_sm.json
+           
+        -- Powershell script to automate preparation of Windows template for Software Components
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/ps_prepare_vra_template_for_swc.ps1
            
-       11. Shell script to automate preparation of Linux template for Software Components
+        -- Shell script to automate preparation of Linux template for Software Components
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/sh_prepare_vra_template_for_swc.sh
 
            

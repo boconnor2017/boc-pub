@@ -31,6 +31,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
         9. Sample JSON: Deploy vRB POC Environment using vRLCM Configuration File
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/vrlcm_vrb_small.json
+           
+       10. Powershell script to automate preparation of Windows template for Software Components
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/ps_prepare_vra_template_for_swc.ps1
 
            
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)

@@ -34,6 +34,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
        10. Powershell script to automate preparation of Windows template for Software Components
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/ps_prepare_vra_template_for_swc.ps1
+           
+       11. Shell script to automate preparation of Linux template for Software Components
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/sh_prepare_vra_template_for_swc.sh
 
            
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)

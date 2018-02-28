@@ -4,7 +4,7 @@ How to use: download boc-pub or select specific tutorials below. From CLI use wg
 # vRealize
 VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealize Operations, vRealize Log Insight, vRealize Code Stream and vRealize Network Insight. 
 
-   - vRealize Automation Lifecycle Management Tutorials
+   - vRealize Suite Lifecycle Management Tutorials
         1. PowerCLI script to automate deployment of IaaS Virtual Machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1 
            

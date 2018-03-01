@@ -5,6 +5,7 @@ How to use: clone boc-pub or select specific tutorials below. From CLI use wget 
 VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealize Operations, vRealize Log Insight, vRealize Code Stream and vRealize Network Insight. 
 
    - vRealize Suite Lifecycle Management Tutorials
+   
         -- PowerCLI script to automate deployment of IaaS Virtual Machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1 
            
@@ -43,7 +44,8 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
 
            
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)
-        1. Shell script to automate installation of NodeJS
+        
+        -- Shell script to automate installation of NodeJS
            https://github.com/boconnor2017/boc-pub/blob/master/PhotonOS/installNodeJS.sh
 
 
@@ -51,12 +53,14 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
 VMWare Cloud Foundation tutorials: Dell, Cisco, ONIE, SDDC Manager, ESXi, vSAN, NSX
 
    - VMWare Cloud Foundation Imaging and Bringup 
-       1. Helpful CLI commands and references during deployment of VCF
+   
+       -- Helpful CLI commands and references during deployment of VCF
           https://github.com/boconnor2017/boc-pub/blob/master/VCF/helpful_cli_and_references.txt
 
 # vSphere
 VMWare vSphere tutorials: vCenter and ESXi
 
    - General vSphere Tutorials
-       1. PowerCLI script to deploy OVA template
+   
+       -- PowerCLI script to deploy OVA template
           https://github.com/boconnor2017/boc-pub/blob/master/vSphere/pscli_deploy_ova_template.ps1  

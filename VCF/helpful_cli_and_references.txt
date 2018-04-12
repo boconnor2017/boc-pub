@@ -62,5 +62,6 @@ sudo reboot
 cd /home/vrack/bin 
 ./vrm-cli.sh lookup-password 
 
-
+# How to cleanup orphaned vCenter Servers after deleting a workload domain
+https://kb.vmware.com/s/article/52421 
 

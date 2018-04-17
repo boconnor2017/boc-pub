@@ -41,6 +41,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
         -- Shell script to automate preparation of Linux template for Software Components
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/sh_prepare_vra_template_for_swc.sh
+           
+        -- Shell script to synch vRA appliance to NTP server
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/synch_vra_to_domain.sh
 
            
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)

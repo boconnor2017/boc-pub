@@ -68,3 +68,6 @@ VMWare vSphere tutorials: vCenter and ESXi
    
        -- PowerCLI script to deploy OVA template
           https://github.com/boconnor2017/boc-pub/blob/master/vSphere/pscli_deploy_ova_template.ps1  
+          
+       -- Helpful esxcli commands: 
+          https://github.com/boconnor2017/boc-pub/blob/master/vSphere/esxcli_commands.txt

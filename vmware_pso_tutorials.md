@@ -71,3 +71,5 @@ VMWare vSphere tutorials: vCenter and ESXi
           
        -- Helpful esxcli commands: 
           https://github.com/boconnor2017/boc-pub/blob/master/vSphere/esxcli_commands.txt
+          
+       -- PowerCLI script to power on all powered off vms: https://github.com/boconnor2017/boc-pub/blob/master/vSphere/pscli_restart_all_powered_off_vms.ps1

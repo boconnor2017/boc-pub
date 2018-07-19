@@ -66,13 +66,7 @@ cd /home/vrack/bin
 https://kb.vmware.com/s/article/52421 
 
 # Process to replace certificates
-1. Using the root credentials, SSH in to the SDDC Manager Controller VM.
-2. Navigate to /opt/vmware/cert-mgmt/bin.
-3. Type the following command.
-    ./vcfcerthelper \
-    --config_file config.json \
-    --cert_dir cert-output \
-    --action build-certgen-config
+https://docs.vmware.com/en/VMware-Cloud-Foundation/2.2/com.vmware.vcf.admin.doc_22/GUID-80431626-B9CD-4F21-B681-A8F5024D2375.html 
 
 # Sample config.json for certificate replacement
 {

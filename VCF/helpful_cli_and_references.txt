@@ -65,3 +65,21 @@ cd /home/vrack/bin
 # How to cleanup orphaned vCenter Servers after deleting a workload domain
 https://kb.vmware.com/s/article/52421 
 
+# Sample config.json for certificate replacement
+{
+ "replacementScope" : {
+ "replaceEverything" : true
+ },
+ "certificateDefaults" : {
+ "countryName" : "US",
+ "stateOrProvinceName" : "California",
+ "localityName" : "Palo Alto",
+ "organizationName" : "VMWare Inc.",
+ "organizationUnitName" : "VMware IT department",
+ "keySize" : 4096
+ }
+}
+
+
+
+

@@ -65,6 +65,15 @@ cd /home/vrack/bin
 # How to cleanup orphaned vCenter Servers after deleting a workload domain
 https://kb.vmware.com/s/article/52421 
 
+# Process to replace certificates
+1. Using the root credentials, SSH in to the SDDC Manager Controller VM.
+2. Navigate to /opt/vmware/cert-mgmt/bin.
+3. Type the following command.
+    ./vcfcerthelper \
+    --config_file config.json \
+    --cert_dir cert-output \
+    --action build-certgen-config
+
 # Sample config.json for certificate replacement
 {
  "replacementScope" : {

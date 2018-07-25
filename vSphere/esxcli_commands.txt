@@ -5,7 +5,13 @@ vim-cmd vmsvc/getallvms
 vim-cmd vmsvc/power.getstate <vm ID>
 
 #POWER ON A VM
-vim-cmd vmsvc/power.on 13
+vim-cmd vmsvc/power.on <vmid>
+
+#POWER OFF A VM
+vim-cmd vmsvc/power.off <vmid>
+
+#REBOOT A VM
+vim-cmd vmsvc/power.reboot <vmid>
 
 #APPLY LICENSE KEY
 vim-cmd vimsvc/license --set=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX

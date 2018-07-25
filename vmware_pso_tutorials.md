@@ -50,6 +50,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
         
         -- Shell script to automate installation of NodeJS
            https://github.com/boconnor2017/boc-pub/blob/master/PhotonOS/installNodeJS.sh
+        
+        -- Bash command to open Linux ports
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/iptables.txt 
 
 # vSphere Integrated Openstack
    - Sample json configuration for VIO with Kubernetes: https://github.com/boconnor2017/boc-pub/blob/master/VIO/vio_with_kubernetes.json 

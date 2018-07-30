@@ -44,6 +44,9 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
            
         -- Shell script to synch vRA appliance to NTP server
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/synch_vra_to_domain.sh
+           
+        -- Bash command to restart vra installation wizard 
+           https://github.com/boconnor2017/boc-pub/blob/master/vRealize/restart_vra_wizard.txt
 
            
     - Guest Level Operations (Windows, Linux, PhotonOS, etc)

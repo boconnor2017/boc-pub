@@ -67,6 +67,9 @@ VMWare Cloud Foundation tutorials: Dell, Cisco, ONIE, SDDC Manager, ESXi, vSAN, 
        -- Helpful CLI commands and references during deployment of VCF
           https://github.com/boconnor2017/boc-pub/blob/master/VCF/helpful_cli_and_references.txt
 
+# Hybrid Cloud Extension (HCX)
+   - Steps to resolve "Untrusted SSL connection" during site pairing: https://github.com/boconnor2017/boc-pub/blob/master/HCX/generateSSL.txt
+
 # vSphere
 VMWare vSphere tutorials: vCenter and ESXi
 

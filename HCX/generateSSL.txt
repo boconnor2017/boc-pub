@@ -1,0 +1,16 @@
+#Generate SSL in HCX
+
+# Step 1 - login to HCX Cloud appliance and generate certificates
+openssl req -x509 -nodes -days 1000 -newkey rsa:2048 -keyout private.crt -out public.crt -subj '/C=US/ST=MA/L=Boston/O=cloudstackx.local/OU=hybridity/CN=172.16.0.91'
+
+#Step 2
+ # Login to HCX Cloud Appliance Management UI (https://<hcx-cloud-fqdn>:9443)
+ # Navigate to Administration >  Server Certificate tab.
+ # Paste the contents of public.crt in ‘Server Certificate’ section.
+ # Paste the contents of private.crt in ‘Private Key’ section.
+
+#Step 3
+ # Login to HCX Enterprise Appliance Management UI (https://<hcx-cloud-fqdn>:9443)
+ # Navigate to Administration > Trusted CA Certificate tab and click on ‘Import’
+ # Select ‘URL’ method and provide the URL of your HCX Cloud and hit Apply button
+ # Verify that cert has been imported successfully

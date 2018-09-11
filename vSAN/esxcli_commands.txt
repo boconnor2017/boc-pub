@@ -1,0 +1,8 @@
+# Display the CMMDS networking mode
+esxcli vsan cluster get
+
+# Find vSAN cluster nodes that are operating in unicast mode
+esxcli vsan cluster unicastagent list
+
+# General unicast information and vSAN network information
+esxcli vsan network list

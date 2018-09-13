@@ -87,3 +87,4 @@ VMWare vSphere tutorials: vCenter and ESXi
  Virtual SAN tutorials
  
  - Helpful esxcli commands: https://github.com/boconnor2017/boc-pub/blob/master/vSAN/esxcli_commands.txt 
+ - vSAN Sizing Calculator: https://kauteetech.github.io/vsancapacity/allflash  

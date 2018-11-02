@@ -6,6 +6,8 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
 
    - vRealize Suite Lifecycle Management Tutorials
    
+        -- Local directory for OVAs: /data
+   
         -- PowerCLI script to automate deployment of IaaS Virtual Machines
            https://github.com/boconnor2017/boc-pub/blob/master/vRealize/InstallManagementAgent.ps1 
            

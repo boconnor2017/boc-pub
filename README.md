@@ -61,6 +61,7 @@ VMWare vRealize Suite tutorials: vRealize Automation, vRealize Business, vRealiz
 
 # vSphere Integrated Openstack
    - Sample json configuration for VIO with Kubernetes: https://github.com/boconnor2017/boc-pub/blob/master/VIO/vio_with_kubernetes.json 
+
 # VMWare Cloud Foundation
 VMWare Cloud Foundation tutorials: Dell, Cisco, ONIE, SDDC Manager, ESXi, vSAN, NSX
 
@@ -71,6 +72,7 @@ VMWare Cloud Foundation tutorials: Dell, Cisco, ONIE, SDDC Manager, ESXi, vSAN, 
 
 # Hybrid Cloud Extension (HCX)
    - Steps to resolve "Untrusted SSL connection" during site pairing: https://github.com/boconnor2017/boc-pub/blob/master/HCX/generateSSL.txt
+   - Reference docs for leveraging HCX API: https://github.com/boconnor2017/boc-pub/blob/master/HCX/hcx_apis_reference.txt
 
 # vSphere
 VMWare vSphere tutorials: vCenter and ESXi

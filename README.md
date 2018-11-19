@@ -73,6 +73,7 @@ VMWare Cloud Foundation tutorials: Dell, Cisco, ONIE, SDDC Manager, ESXi, vSAN, 
 # Hybrid Cloud Extension (HCX)
    - Steps to resolve "Untrusted SSL connection" during site pairing: https://github.com/boconnor2017/boc-pub/blob/master/HCX/generateSSL.txt
    - Reference docs for leveraging HCX API: https://github.com/boconnor2017/boc-pub/blob/master/HCX/hcx_apis_reference.txt
+   - Troubleshooting Interconnect: /common/logs/admin/app.log
 
 # vSphere
 VMWare vSphere tutorials: vCenter and ESXi

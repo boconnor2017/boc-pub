@@ -1,0 +1,644 @@
+{
+  "requestId": null,
+  "environmentId": "f3c8969d4a574e75558e64e985228",
+  "infrastructure": {
+    "sourceLink": "f3c8969d4a574e75558e64e985228",
+    "properties": {
+      "bindPassword": "",
+      "dataCenterName": "sfo01-m01dc",
+      "vcHostname": "sfo01m01vc01.sfo01.rainpole.local",
+      "environmentId": "f3c8969d4a574e75558e64e985228",
+      "masterVidmAdminUserName": "",
+      "netmask": "255.255.255.0",
+      "environmentName": "VVD-ITAIT",
+      "clusterName": "sfo01-m01dc#sfo01-m01-mgmt01",
+      "enableTelemetry": "true",
+      "dnsServers": "172.16.11.4,172.16.11.5",
+      "diskFormat": "Thin",
+      "baseDN": "",
+      "vcPassword": "vsphere_admin_password",
+      "defaultPassword": "vsphere_admin_password",
+      "adminEmail": "admin@rainpole.local",
+      "adName": "",
+	     "certificateChain": 
+									"-----BEGIN CERTIFICATE-----
+						    CERTIFICATE CHAIN CONTENTS HERE
+          -----END CERTIFICATE-----\n
+          -----BEGIN CERTIFICATE-----
+          CERTIFICATE CONTENTS HERE
+          -----END CERTIFICATE-----",
+      "masterKeyPassphrase": "",
+      "datastoreName": "sfo01-m01-vsan01",
+      "masterVidmAdminPassword": "",
+      "masterVidmEnabled": "",
+      "uberAdmin": "",
+      "license": "xxxx-xxxx-xxxx-xxxx-xxxx",
+      "privateKey": "-----BEGIN RSA PRIVATE KEY-----
+                     RSA PRIVATE KEY HERE
+                     -----END RSA PRIVATE KEY-----",
+      "bindDN": "",
+      "vmNetwork": "distributed switch that ends with Mgmt-xRegion01-VXLAN",
+      "masterPrivateKey": "",
+      "masterVidmHostName": "",
+      "groupDN": "",
+      "masterVidmCloudAdminGroup": "",
+      "vcUsername": "administrator@vsphere.local",
+      "domain": "rainpole.local",
+      "acceptEULA": true,
+      "keyPassphrase": "Certificate_Passphrase",
+      "gateway": "192.168.11.1",
+      "searchpath": "rainpole.local,sfo01.rainpole.local",
+      "masterCertificateChain": ""
+    }
+  },
+  "encoded": true,
+  "products": [
+    {
+      "sourceLink": null,
+      "id": "vra",
+      "version": "7.3.0",
+      "clusterVIP": [
+        {
+          "type": "vra",
+          "hostname": "vra01svr01.rainpole.local",
+          "ipAddress": "192.168.11.53"
+        },
+        {
+          "type": "iaas-web",
+          "hostname": "vra01iws01.rainpole.local",
+          "ipAddress": "192.168.11.56"
+        },
+        {
+          "type": "iaas-manager",
+          "hostname": "vra01ims01.rainpole.local",
+          "ipAddress": "192.168.11.59"
+        }
+      ],
+      "properties": {
+        "windowsPassword": "vsphere_admin_password",
+        "windowsUsername": "RAINPOLE\\svc-vra"
+      },
+      "nodes": [
+        {
+          "type": "vra-server-primary",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01svr01a.rainpole.local",
+            "ipAddress": "192.168.11.51",
+            "hostname": "vra01svr01a.rainpole.local",
+            "cluster": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "netmask": "",
+            "sshEnabled": "",
+            "dns": "",
+            "licenseKey": "",
+            "domain": "",
+            "gateway": "",
+            "searchpath": "",
+            "vidmVraDisabledAdvanced": "false",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "vra-server-secondary",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01svr01b.rainpole.local",
+            "ipAddress": "192.168.11.52",
+            "hostname": "vra01svr01b.rainpole.local",
+            "cluster": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "netmask": "",
+            "sshEnabled": "",
+            "dns": "",
+            "domain": "",
+            "gateway": "",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "db",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01mssql01.rainpole.local",
+            "ipAddress": "192.168.11.62",
+            "hostname": "vra01mssql01.rainpole.local",
+            "databaseName": "VRADB-01",
+            "databaseUserName": "",
+            "useWindowsAuthentication": "true",
+            "useExistingDatabase": "",
+            "databasePassword": ""
+          }
+        },
+        {
+          "type": "iaas-web",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01iws01a.rainpole.local",
+            "ipAddress": "192.168.11.54",
+            "hostname": "vra01iws01a.rainpole.local",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "webPassword": "",
+            "webUserName": "",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-web",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01iws01b.rainpole.local",
+            "ipAddress": "192.168.11.55",
+            "hostname": "vra01iws01b.rainpole.local",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "webPassword": "",
+            "webUserName": "",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-manager-active",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01ims01a.rainpole.local",
+            "ipAddress": "192.168.11.57",
+            "hostname": "vra01ims01a.rainpole.local",
+            "msUserName": "",
+            "msPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-manager-passive",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01ims01b.rainpole.local",
+            "ipAddress": "192.168.11.58",
+            "hostname": "vra01ims01b.rainpole.local",
+            "msUserName": "",
+            "msPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-01",
+            "ipAddress": "192.168.11.60",
+            "hostname": "vra01dem01a.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-02",
+            "ipAddress": "192.168.11.60",
+            "hostname": "vra01dem01a.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-03",
+            "ipAddress": "192.168.11.60",
+            "hostname": "vra01dem01a.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-04",
+            "ipAddress": "192.168.11.61",
+            "hostname": "vra01dem01b.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-05",
+            "ipAddress": "192.168.11.61",
+            "hostname": "vra01dem01b.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-WORKER-06",
+            "ipAddress": "192.168.11.61",
+            "hostname": "vra01dem01b.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-orchestrator",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-ORCHESTRATOR-01",
+            "ipAddress": "192.168.11.57",
+            "hostname": "vra01ims01a.rainpole.local",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "iaas-dem-orchestrator",
+          "sourceLink": "",
+          "properties": {
+            "name": "DEM-ORCHESTRATOR-02",
+            "ipAddress": "192.168.11.58",
+            "hostname": "vra01ims01b.rainpole.local",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "demUserName": "",
+            "demPassword": "",
+            "installationPath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "proxy-agent-vsphere",
+          "sourceLink": "",
+          "properties": {
+            "name": "VSPHERE-AGENT-01",
+            "ipAddress": "192.168.31.52",
+            "hostname": "sfo01ias01a.sfo01.rainpole.local",
+            "agentUserName": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "agentPassword": "",
+            "installationPath": "",
+            "vsphereEndpointName": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "proxy-agent-vsphere",
+          "sourceLink": "",
+          "properties": {
+            "name": "VSPHERE-AGENT-02",
+            "ipAddress": "192.168.31.53",
+            "hostname": "sfo01ias01b.sfo01.rainpole.local",
+            "agentUserName": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "agentPassword": "",
+            "installationPath": "",
+            "vsphereEndpointName": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        }
+      ]
+    },
+    {
+      "sourceLink": null,
+      "id": "vrbc",
+      "version": "7.3.0",
+      "clusterVIP": [],
+      "properties": {
+        "currency": "USD - US Dollar"
+      },
+      "nodes": [
+        {
+          "type": "vrb-server",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01bus01.rainpole.local",
+            "ipAddress": "192.168.11.66",
+            "hostname": "vra01bus01.rainpole.local",
+            "cluster": "",
+            "vrbTelemetryEnabled": "",
+            "tenantPassword": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "tenantUser": "",
+            "netmask": "",
+            "diskFormat": "",
+            "vrbCurrency": "",
+            "sshEnabled": "",
+            "dns": "",
+            "vrbLicenseKey": "",
+            "isTelemetryEnable": "",
+            "domain": "",
+            "gateway": "",
+            "searchpath": "",
+            "isStandalone": "",
+            "masterVidmEnabled": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "vrb-collector",
+          "sourceLink": "",
+          "properties": {
+            "name": "vra01buc01.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.54",
+            "hostname": "vra01buc01.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vrbTelemetryEnabled": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "netmask": "",
+            "diskFormat": "",
+            "vrbCurrency": "",
+            "sshEnabled": "",
+            "dns": "",
+            "vrbLicenseKey": "",
+            "isTelemetryEnable": "",
+            "domain": "sfo01.rainpole.local",
+            "gateway": "192.168.31.1",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        }
+      ]
+    },
+    {
+      "sourceLink": null,
+      "id": "vrops",
+      "version": "6.6.1",
+      "clusterVIP": [],
+      "properties": {
+        "ntpServerIP": "ntp.sfo01.rainpole.local"
+      },
+      "nodes": [
+        {
+          "type": "master",
+          "sourceLink": "",
+          "properties": {
+            "name": "vrops01svr01a.rainpole.local",
+            "ipAddress": "192.168.11.31",
+            "hostname": "vrops01svr01a.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "netmask": "",
+            "diskFormat": "",
+            "ntpServer": "",
+            "dns": "",
+            "timeZone": "",
+            "license": "",
+            "domain": "",
+            "gateway": "",
+            "deployOption": "",
+            "extendedStorage": "sfo01-m01-vsan01",
+            "searchpath": "",
+            "masterVidmEnabled": "",
+            "masterVidmHostName": "",
+            "masterVidmSourceName": "",
+            "masterVidmTenant": "",
+            "masterVidmAdminUserName": "",
+            "masterVidmAdminPassword": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "replica",
+          "sourceLink": "",
+          "properties": {
+            "name": "vrops01svr01b.rainpole.local",
+            "ipAddress": "192.168.11.32",
+            "hostname": "vrops01svr01b.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "netmask": "",
+            "diskFormat": "",
+            "dns": "",
+            "timeZone": "",
+            "domain": "",
+            "gateway": "",
+            "deployOption": "",
+            "extendedStorage": "sfo01-m01-vsan01",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "data",
+          "sourceLink": "",
+          "properties": {
+            "name": "vrops01svr01c.rainpole.local",
+            "ipAddress": "192.168.11.33",
+            "hostname": "vrops01svr01c.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "",
+            "netmask": "",
+            "diskFormat": "",
+            "dns": "",
+            "timeZone": "",
+            "domain": "",
+            "gateway": "",
+            "deployOption": "",
+            "extendedStorage": "sfo01-m01-vsan01",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "remotecollector",
+          "sourceLink": "",
+          "properties": {
+            "name": "sfo01vropsc01a.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.31",
+            "hostname": "sfo01vropsc01a.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "netmask": "",
+            "diskFormat": "",
+            "ntpServer": "",
+            "dns": "",
+            "timeZone": "",
+            "domain": "sfo01.rainpole.local",
+            "gateway": "192.168.31.1",
+            "deployOption": "",
+            "extendedStorage": "",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "remotecollector",
+          "sourceLink": "",
+          "properties": {
+            "name": "sfo01vropsc01b.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.32",
+            "hostname": "sfo01vropsc01b.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "netmask": "",
+            "diskFormat": "",
+            "ntpServer": "",
+            "dns": "",
+            "timeZone": "",
+            "domain": "sfo01.rainpole.local",
+            "gateway": "192.168.31.1",
+            "deployOption": "",
+            "extendedStorage": "",
+            "searchpath": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        }
+      ]
+    },
+    {
+      "sourceLink": null,
+      "id": "vrli",
+      "version": "4.5.0",
+      "clusterVIP": [],
+      "properties": {
+        "vrliClusterVips": "192.168.31.10#sfo01vrli01.sfo01.rainpole.local"
+      },
+      "nodes": [
+        {
+          "type": "vrli-master",
+          "sourceLink": "",
+          "properties": {
+            "name": "sfo01vrli01a.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.11",
+            "hostname": "sfo01vrli01a.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "vrliAdminEmail": "",
+            "netmask": "",
+            "vrliAdminUser": "",
+            "diskFormat": "",
+            "vrliLicenseKey": "",
+            "dns": "",
+            "domain": "sfo01.rainpole.local",
+            "searchpath": "",
+            "gateway": "192.168.31.1",
+            "deployOption": "",
+            "masterVidmEnabled": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "vrli-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "sfo01vrli01b.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.12",
+            "hostname": "sfo01vrli01b.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "dns": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "netmask": "",
+            "domain": "sfo01.rainpole.local",
+            "diskFormat": "",
+            "searchpath": "",
+            "gateway": "192.168.31.1",
+            "deployOption": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        },
+        {
+          "type": "vrli-worker",
+          "sourceLink": "",
+          "properties": {
+            "name": "sfo01vrli01c.sfo01.rainpole.local",
+            "ipAddress": "192.168.31.13",
+            "hostname": "sfo01vrli01c.sfo01.rainpole.local",
+            "cluster": "sfo01-m01dc#sfo01-m01-mgmt01",
+            "dns": "",
+            "vCenterHost": "sfo01m01vc01.sfo01.rainpole.local",
+            "storage": "",
+            "network": "distributed switch that ends with Mgmt-RegionA01-VXLAN",
+            "netmask": "",
+            "domain": "sfo01.rainpole.local",
+            "diskFormat": "",
+            "searchpath": "",
+            "gateway": "192.168.31.1",
+            "deployOption": "",
+            "userName": "administrator@vsphere.local",
+            "password": "vsphere_admin_password"
+          }
+        }
+      ]
+    }
+  ]
+}

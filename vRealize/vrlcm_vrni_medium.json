@@ -1,0 +1,115 @@
+{
+  "requestId": null,
+  "environmentId": "75beb2299fae9e755801063ec783a",
+  "infrastructure": {
+    "sourceLink": "75beb2299fae9e755801063ec783a",
+    "properties": {
+      "vrniLicense": "J009Q-JWJ0H-58UC0-0JFR0-2JX1M",
+      "bindPassword": "",
+      "environmentType": "Development",
+      "certificateId": "cloudstackx",
+      "dataCenterName": "CloudstackX Site A",
+      "vcHostname": "csxvc.cloudstackx.local",
+      "productLevelCertificate": "false",
+      "environmentId": "75beb2299fae9e755801063ec783a",
+      "masterVidmAdminUserName": "",
+      "netmask": "255.255.255.0",
+      "environmentName": "vRNI_v1",
+      "clusterName": "CloudstackX#cloudstackx",
+      "enableTelemetry": "false",
+      "dnsServers": "172.16.0.9",
+      "diskFormat": "Thick",
+      "baseDN": "",
+      "ntpServer": "pool.ntp.org",
+      "vcPassword": "s2enc~aT3LMUbILxukFdPG+G900g==",
+      "defaultPassword": "s2enc~aT3LMUbILxukFdPG+G900g==",
+      "adminEmail": "administrator@vsphere.local",
+      "adName": "",
+      "certificateChain": "-----BEGIN CERTIFICATE-----\nMIID9zCCAt+gAwIBAgIGAWbVZQtoMA0GCSqGSIb3DQEBCwUAMHAxUDBOBgNVBAMM\nR3ZSZWFsaXplIFN1aXRlIExpZmVjeWNsZSBNYW5hZ2VyIExvY2tlciBDQSBsY21j\nYSB1bmRlciBUZW5hbnQgbGNtLmxvY2FsMQ8wDQYDVQQKDAZWTXdhcmUxCzAJBgNV\nBAYTAklOMB4XDTE4MTEwMjE3MDc0MVoXDTIwMTEwMTE3MDc0MVowZDEUMBIGA1UE\nAwwLQ2xvdWRzdGFja1gxCzAJBgNVBAsMAklUMRQwEgYDVQQKDAtDbG91ZHN0YWNr\nWDEPMA0GA1UEBwwGQm9zdG9uMQswCQYDVQQIDAJNQTELMAkGA1UEBhMCVVMwggEh\nMA0GCSqGSIb3DQEBAQUAA4IBDgAwggEJAoIBAQCjpc5iRdKKyR149OaRQ2oehnLN\nxCaDGL8ePdnSomy0anHvVjdtr73EpDpwgOjylWuuFTk8vCxMcR4pUxeZd8TDuS6H\nVmxXWyUGO2Wjod2/DlcMRZxj+4RnBJlhNe1liPUOJqFEC7Ry8MMUJX5taBiWmOom\nMxLvNVa5WU55MAojfHj3n2AvwHDJim/X/P0Az+bgFenhWv2jDwR6qLnXSO2em6E0\nATwFjXH/lFU9mAXfBZjtjeXqnrlrUG9D/1poKc4Ao9HcV3v51cDvoODyaXUlnmp5\nNJPrcSQ8mi0dP0qxVIoSoaWequ+m3J8wn/ZTwuGFrYfIro15Fzd8jbyS6Tq3AgIQ\nAaOBozCBoDAdBgNVHQ4EFgQUU4s7UVKjysNsv1zMuT4rr4WNdqIwHwYDVR0jBBgw\nFoAUr/nQZwotxx7KsjJUwQuXIBF7maowHgYDVR0RBBcwFYITKi5jbG91ZHN0YWNr\neC5sb2NhbDAOBgNVHQ8BAf8EBAMCBaAwIAYDVR0lAQH/BBYwFAYIKwYBBQUHAwIG\nCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwDQYJKoZIhvcNAQELBQADggEBAB5K0qsg\nY94Vbj8aP4FdZKrpfse3uTfBhOcff+eLjWAEq+JqNEX89aisOamLjg3zP8p+vs8q\nqkufGJ7GyiEu757ealGW+v3BTbdGrpbjAWEvemIAnghDSMcehbMQXSfNRwpevLET\nqmPwwPsNbh432DU5N2b24xqQiAz43MpfOhZ1Ixlqs+z+qbyihMZPFOT5XNmU1B40\neEMZIZZJlKsukKzAJtXj1ukPKBegAvx3VNr+jSscs0xJG2cAuybrqzyHCoYTzraJ\n9AcdRJ8C/yhj1f2ORg6Te1UaZQlfgKJpxbPG5ELpPJz8OUmG87L1ngzhqV3Aorv7\nqaqW+LQQoRON9kQ=\n-----END CERTIFICATE-----\n-----BEGIN CERTIFICATE-----\nMIIDwjCCAqqgAwIBAgIGAWZ7j8wfMA0GCSqGSIb3DQEBCwUAMHAxUDBOBgNVBAMM\nR3ZSZWFsaXplIFN1aXRlIExpZmVjeWNsZSBNYW5hZ2VyIExvY2tlciBDQSBsY21j\nYSB1bmRlciBUZW5hbnQgbGNtLmxvY2FsMQ8wDQYDVQQKDAZWTXdhcmUxCzAJBgNV\nBAYTAklOMB4XDTE4MTAxNjA2MjgzM1oXDTIwMTAxNTA2MjgzM1owcDFQME4GA1UE\nAwxHdlJlYWxpemUgU3VpdGUgTGlmZWN5Y2xlIE1hbmFnZXIgTG9ja2VyIENBIGxj\nbWNhIHVuZGVyIFRlbmFudCBsY20ubG9jYWwxDzANBgNVBAoMBlZNd2FyZTELMAkG\nA1UEBhMCSU4wggEhMA0GCSqGSIb3DQEBAQUAA4IBDgAwggEJAoIBAQC7CtjeluFO\nVM2QFVIiviGTRPKljVIuKfAnFXpo7Pa+/6safrgtCi9kF0IQZlrzYeoKlbS5YT+W\nKzGACwjdCrVOtU4m2xtMCus4HLpOTTiQeZ+OdamN4BBNUvWYMZMNzj9lpWfdcYE8\nb7NYDLGivTH20KkdTL6lPtyHr+oB89HC1ZjsuSvJcKSxRAQ5XUtXV9rPgQrGoKVU\nNA5ZXtgeUWhbp3+h3lTwKFSDte6pfxY/hDSvAdTgX5hbBCIQLS49IzZXYYp8xLHp\njaNwUvtQdk+cPlihXn7VdhWOvhVLtgAx8cKDagJz/+XcrW+aXRlvq3f+SZuv/v/z\nc6s3S6TknCEvAgIQAaNjMGEwHQYDVR0OBBYEFK/50GcKLcceyrIyVMELlyARe5mq\nMB8GA1UdIwQYMBaAFK/50GcKLcceyrIyVMELlyARe5mqMA8GA1UdEwEB/wQFMAMB\nAf8wDgYDVR0PAQH/BAQDAgGGMA0GCSqGSIb3DQEBCwUAA4IBAQA0X8/6zeqQq2Mi\nvmqu4cgZyYo4GAf6cUTDCUazwBuvPJywEpajKQAS3Pmb8RXuiQpaS7V1tEPQp7DT\n58PwMDt+Kv2l4d2Ag+D/SpU9oammi6ZLrGt2xiHxkkrU/BQukA/Lcst/FajbMIFe\n2Q3K/F3EqIBTKFtdqZiBnAiaCioHPwHX7KcVIE15JhS7NwePp3Kr756NsILiMlZ3\nIn04O3H/n/u1QSg5EI9fJZVj1OA7ViUVfxE2il7lEMB9hUCmUbH0ZPBziGOEidY+\n8YyCR6Bn+3L+VMDGp5swfn2EKGm2SJUUTG1VCc/JxYHQ2HhMINAVhYerN8Ed808y\nwDUa+QF8\n-----END CERTIFICATE-----\n",
+      "masterKeyPassphrase": "",
+      "datastoreName": "csx_payload",
+      "masterVidmAdminPassword": "",
+      "masterVidmEnabled": "",
+      "uberAdmin": "",
+      "license": "",
+      "privateKey": "",
+      "bindDN": "",
+      "vmNetwork": "vxw-dvs-68-virtualwire-1-sid-5000-CSX VRLCM",
+      "masterPrivateKey": "",
+      "masterVidmHostName": "",
+      "groupDN": "",
+      "masterVidmCloudAdminGroup": "",
+      "vcUsername": "administrator@vsphere.local",
+      "domain": "cloudstackx.local",
+      "timeSyncMode": "ntp",
+      "acceptEULA": "true",
+      "keyPassphrase": "",
+      "gateway": "192.168.10.1",
+      "searchpath": "cloudstackx,cloudstackcx.local",
+      "masterCertificateChain": ""
+    }
+  },
+  "encoded": false,
+  "products": [
+    {
+      "sourceLink": null,
+      "id": "vrni",
+      "version": "3.9.0",
+      "clusterVIP": [],
+      "properties": {
+        "timeSyncMode": "ntp",
+        "ntpServer": "pool.ntp.org",
+        "ntpServerIP": null,
+        "license": "J009Q-JWJ0H-58UC0-0JFR0-2JX1M"
+      },
+      "nodes": [
+        {
+          "sourceLink": "",
+          "type": "vrni-platform",
+          "properties": {
+            "name": "vrlcmvrni05",
+            "ipAddress": "192.168.10.25",
+            "hostname": "",
+            "brickSize": "medium",
+            "isMaster": "true",
+            "vCenterHost": "",
+            "cluster": "",
+            "network": "",
+            "storage": "",
+            "diskFormat": "Thin",
+            "esxHost": "",
+            "gateway": "",
+            "dns": "",
+            "domain": "",
+            "searchpath": "",
+            "netmask": "",
+            "ntp": ""
+          }
+        },
+        {
+          "sourceLink": "",
+          "type": "vrni-collector",
+          "properties": {
+            "name": "vrlcmvrnip05",
+            "ipAddress": "192.168.10.26",
+            "hostname": "",
+            "brickSize": "medium",
+            "vCenterHost": "",
+            "cluster": "",
+            "network": "",
+            "storage": "",
+            "diskFormat": "Thin",
+            "esxHost": "",
+            "gateway": "",
+            "dns": "",
+            "domain": "",
+            "searchpath": "",
+            "netmask": "",
+            "ntp": ""
+          }
+        }
+      ],
+      "contents": []
+    }
+  ]
+}

@@ -39,7 +39,7 @@ System.log("Component Type ID: "+component_type_id);
 var endpoint_id = properties.get("endpointId");
 System.log("Endpoint ID: "+endpoint_id);
 
-//Parse custom properties to pull the tags
+//Parse custom properties
 System.log("Custom Properties:");
 var machine_custom_properties = machine.get("properties");
 if(machine_custom_properties!=null)
@@ -54,8 +54,17 @@ else
  System.log("No custom properties");
 }
 
-//Retrieve additional properties leveraging VCAC:Host and VCAC:VM attributes
-if(host!=null && virtualMachine!=null)
-{
-   System.getModule("com.vmware.library.vcac").getPropertiesFromVirtualMachine(host,virtualMachine) ;
+var newproperties = new Properties();
+newproperties.put("VirtualMachineID", machine_id);
+
+
+var virtualMachineEntity = vCACEntityManager.readModelEntity(host.id, "ManagementModelEntities.svc", "VirtualMachines", newproperties, null);
+var vmProperties = new Properties();
+
+var virtualMachinePropertiesEntities = virtualMachineEntity.getLink(host, "VirtualMachineProperties");
+for each (var virtualMachinePropertiesEntity in virtualMachinePropertiesEntities) {
+	var propertyName = virtualMachinePropertiesEntity.getProperty("PropertyName");
+	var propertyValue = virtualMachinePropertiesEntity.getProperty("PropertyValue");
+	System.log("Found property " + propertyName + " = " + propertyValue);
+	vmProperties.put(propertyName, propertyValue);
 }
